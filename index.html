@@ -1,29 +1,50 @@
+<!-- Esto es un comentario -->
+<!-- Doctype indica el contenido del documento HTML -->
 <!DOCTYPE html>
+<!-- Cada documento HTML tiene las etiquetas HTMLen ellas se indica el lenguaje de la página y se divide en dos secciones, el head y el body -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+    <!-- La etiqueta head contiene la información que leen los robots de rastreadores de páginas -->
+    <head>
+    <!-- meta: se usa para indicar metadatos -->
+    <!-- UTF-8: Se usa para indicar que el documento soporta caracterés del idioma como acentos y ñ -->
+    <meta charset="UTF-8"> 
+    <!-- La  sig tag se usa para indicar que va a tener escala para diferentes resoluciones de pantalla movil, tablet, desktop  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseñador Freelancer</title>
 </head>
 <body>
-    <h1>Brayan Uriel Ramírez Guerrero - Freelancer</h1>
-
-    <h2>Diseño y desarrollo web</h2>
-    <p>Estado de México, Cuautitlán</p>
-
-    <h2>Mis servicios</h2>
-
-    <h3>Diseño Web</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-    
-    <h3>Aplicaciones Web</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-    
-    <h3>E-Commerce</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-    <h2>Cotacto</h2>
-
-    <p>Todos los derechos reservado Brayan Uriel Ramírez Guerrero</p>
+    <!-- Indica el encabezado del sitio -->
+    <header>
+        <h1>Brayan Uriel Ramírez Guerrero - Freelancer</h1>
+    </header>
+    <!-- Indica la siguiente sección -->
+    <section>
+        <!-- Normalmente cada h2 indica cuaando inicia una nueva sección por temas de SEO -->
+        <h2>Diseño y desarrollo web</h2>
+        <p>Estado de México, Cuautitlán</p>
+    </section>
+    <!-- En la etiqueta main se coloca el contenido principal -->
+    <main>
+        <h2>Mis servicios</h2>
+        <section>
+            <h3>Diseño Web</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+        <section>
+            <h3>Aplicaciones Web</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+        <section>
+            <h3>E-Commerce</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </section>
+    </main>
+    <section>
+        <h2>Cotacto</h2>
+    </section>
+    <!-- Footer: Pie de página -->
+    <footer>
+        <p>Todos los derechos reservado Brayan Uriel Ramírez Guerrero</p>
+    </footer>
 </body>
 </html>
