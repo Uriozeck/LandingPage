@@ -9,7 +9,10 @@
 html {
     font-size: 62.5%; /*Se reinicia el tamaño de los pixeles a rem*/
 }
-body { font-size: 16px; /*Todas las fuentes van a medir 16 px en el cuerpo del documento*/}
+body { 
+    font-size: 16px; /*Todas las fuentes van a medir 16 px en el cuerpo del documento*/
+    font-family: 'krub', arial;
+}
 .titulo { 
     text-align: center; 
     font-size: 3.8rem;
