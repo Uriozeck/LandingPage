@@ -125,3 +125,23 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
 }
+/* SERVICIOS */
+@media (min-width: 768px) {
+    .servicios {
+        display: grid;
+        /* 
+        Forma para generar columnas o columns
+        grid-template-columns: 300px 300px;
+        Forma para generar filas o rows
+        grid-template-rows: 200px 800px;
+    
+        Forma para generar filas y columnas
+        grid: 200px 800px / 300px 300px; */
+        /* Aqui se estan generando 3 columnas 
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-columns: 1fr 1fr 1fr;
+        */
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 1rem;
+    }
+}
