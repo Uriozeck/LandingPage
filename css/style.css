@@ -226,11 +226,12 @@ h1, h2, h3 {
 .campos {
     margin-bottom: 1rem;
 }
-/* .campo {
-    display: flex;
+ .campo {
+    margin-bottom: 1rem;
+    /*display: flex;
     align-items: center;
-    column-gap: .5rem;
-} */
+    column-gap: .5rem;*/
+} 
 .campo label {
     /* width: 7.5rem; */
     color: var(--blanco);
