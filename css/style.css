@@ -228,6 +228,11 @@ h1, h2, h3 {
 }
  .campo {
     margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
     /*display: flex;
     align-items: center;
     column-gap: .5rem;*/
